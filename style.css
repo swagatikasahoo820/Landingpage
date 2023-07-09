@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background: url(heaven-on-hills-497fd2.webp);
+    background-size: cover;
+    font-family:sans-serif ;
+}
+nav{
+    width:100%;
+    height: 100px;
+    color: rgb(239, 229, 229);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu a:hover, .menu a:active{
+    color: red;
+    text-decoration: underline;
+    transition: 0.4s linear;
+} 
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+background: rgb(225, 44, 44);
+border-radius: 8px;
+transition: 0.4s linear;
+}
+.register a:hover{
+    color:rgb(83, 63, 234);
+    text-decoration: underline;
+    background: transparent;
+    
+}
+.h-txt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(8, 7, 7);
+}
+.h-txt span{
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+.h-txt h1{
+    font-size: 3.5em;
+}
+.h-txt a{
+    text-decoration: none;
+    background: rgb(223, 30, 30);
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    
+}
+.h-txt a:hover{
+    color: rgb(59, 22, 223);
+    text-decoration:underline;
+    
+}
